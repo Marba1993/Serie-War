@@ -1,0 +1,449 @@
+FileWriteError: File [C:\Users\Marcos\Documents\The Red Lab Productions\Cine War\Cine War App\CuisUniversity-3174-32.changes] write failed
+22 September 2024 2:44:50.286018 am
+
+VM: Win32 - Croquet Closure Cog[Spur] VM [CoInterpreterPrimitives VMMaker.oscog-eem.2260]
+Image: Cuis 5.0 [latest update: #3174]
+
+StandardFileStream>>primWrite:from:startingAt:count:
+	Receiver: StandardFileStream: 'C:\Users\Marcos\Documents\The Red Lab Productions\Cine War\Cine War A[..]
+	Arguments and temporary variables: 
+		id: 	#[214 193 97 121 160 4 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+		stringOrByteArray: 	'
+'
+		startIndex: 	1
+		count: 	1
+	Receiver's instance variables: 
+
+
+StandardFileStream>>nextPut:
+	Receiver: StandardFileStream: 'C:\Users\Marcos\Documents\The Red Lab Productions\Cine War\Cine War A[..]
+	Arguments and temporary variables: 
+		char: 	$
+
+	Receiver's instance variables: 
+
+
+StandardFileStream(WriteStream)>>newLine
+	Receiver: StandardFileStream: 'C:\Users\Marcos\Documents\The Red Lab Productions\Cine War\Cine War A[..]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+
+
+SystemDictionary>>assureStartupStampLogged
+	Receiver: Smalltalk
+	Arguments and temporary variables: 
+		changesFile: 	StandardFileStream: 'C:\Users\Marcos\Documents\The Red Lab Product[..]
+	Receiver's instance variables: 
+		tally: 	890
+		array: 	#(#HierarchicalListMorph -> HierarchicalListMorph #InvalidGregorianDateE[..]
+		cachedClassNames: 	#(#AbstractFont #AbstractHierarchicalList #ActiveModel #AddIn[..]
+		cachedNonClassNames: 	#(#April #August #December #Display #February #Friday #Inf[..]
+		startUpScriptArguments: 	#()
+		startUpArguments: 	#()
+
+CompiledMethod>>putSource:fromParseNode:inFile:withPreamble:
+	Receiver: (CineWarTest>>#setUp "a CompiledMethod(1838657)")
+	Arguments and temporary variables: 
+		sourceStr: 	'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: ''Hacke[..]
+		methodNode: 	setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: 'Hacker[..]
+		fileIndex: 	2
+		preambleBlock: 	[closure] in CompiledMethod>>putSource:fromParseNode:class:categ[..]
+		file: 	StandardFileStream: 'C:\Users\Marcos\Documents\The Red Lab Productions\Ci[..]
+		remoteString: 	nil
+	Receiver's instance variables: 
+(CineWarTest>>#setUp "a CompiledMethod(1838657)")
+CompiledMethod>>putSource:fromParseNode:class:category:withStamp:inFile:priorMethod:
+	Receiver: (CineWarTest>>#setUp "a CompiledMethod(1838657)")
+	Arguments and temporary variables: 
+		sourceStr: 	'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: ''Hacke[..]
+		methodNode: 	setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: 'Hacker[..]
+		class: 	CineWarTest
+		catName: 	#Running
+		changeStamp: 	'MB 9/22/2024 02:44:50'
+		fileIndex: 	2
+		priorMethod: 	(CineWarTest>>#setUp "a CompiledMethod(2485889)")
+	Receiver's instance variables: 
+(CineWarTest>>#setUp "a CompiledMethod(1838657)")
+CineWarTest class(ClassDescription)>>logMethodSource:forMethodWithNode:inCategory:withStamp:notifying:
+	Receiver: CineWarTest
+	Arguments and temporary variables: 
+		aText: 	a Text for 'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: [..]
+		aCompiledMethodWithNode: 	a CompiledMethodWithNode
+		category: 	#Running
+		changeStamp: 	'MB 9/22/2024 02:44:50'
+		requestor: 	a TextModelMorph(371107)
+		priorMethodOrNil: 	(CineWarTest>>#setUp "a CompiledMethod(2485889)")
+	Receiver's instance variables: 
+		superclass: 	TestCase
+		methodDict: 	a MethodDictionary(#setUp->(CineWarTest>>#setUp "a CompiledMethod(2[..]
+		format: 	65595
+		instanceVariables: 	#('veintiCuatroHorasParaVivir' 'bestiaDeCarga' 'matrix2' 'ya[..]
+		organization: 	('Running' setUp)
+('Test' test000_CineWarNoPuedeInscribrirUnaPeli[..]
+		subclasses: 	nil
+		name: 	#CineWarTest
+		classPool: 	a Dictionary(#ElAngel->El angel )
+		sharedPools: 	nil
+
+CineWarTest class(ClassDescription)>>compile:classified:withStamp:notifying:logSource:
+	Receiver: CineWarTest
+	Arguments and temporary variables: 
+		text: 	a Text for 'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: '[..]
+		category: 	#Running
+		changeStamp: 	'MB 9/22/2024 02:44:50'
+		requestor: 	a TextModelMorph(371107)
+		logSource: 	true
+		methodAndNode: 	a CompiledMethodWithNode
+	Receiver's instance variables: 
+		superclass: 	TestCase
+		methodDict: 	a MethodDictionary(#setUp->(CineWarTest>>#setUp "a CompiledMethod(2[..]
+		format: 	65595
+		instanceVariables: 	#('veintiCuatroHorasParaVivir' 'bestiaDeCarga' 'matrix2' 'ya[..]
+		organization: 	('Running' setUp)
+('Test' test000_CineWarNoPuedeInscribrirUnaPeli[..]
+		subclasses: 	nil
+		name: 	#CineWarTest
+		classPool: 	a Dictionary(#ElAngel->El angel )
+		sharedPools: 	nil
+
+CineWarTest class(ClassDescription)>>compile:classified:withStamp:notifying:
+	Receiver: CineWarTest
+	Arguments and temporary variables: 
+		text: 	a Text for 'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: '[..]
+		category: 	#Running
+		changeStamp: 	'MB 9/22/2024 02:44:50'
+		requestor: 	a TextModelMorph(371107)
+	Receiver's instance variables: 
+		superclass: 	TestCase
+		methodDict: 	a MethodDictionary(#setUp->(CineWarTest>>#setUp "a CompiledMethod(2[..]
+		format: 	65595
+		instanceVariables: 	#('veintiCuatroHorasParaVivir' 'bestiaDeCarga' 'matrix2' 'ya[..]
+		organization: 	('Running' setUp)
+('Test' test000_CineWarNoPuedeInscribrirUnaPeli[..]
+		subclasses: 	nil
+		name: 	#CineWarTest
+		classPool: 	a Dictionary(#ElAngel->El angel )
+		sharedPools: 	nil
+
+CineWarTest class(ClassDescription)>>compile:classified:notifying:
+	Receiver: CineWarTest
+	Arguments and temporary variables: 
+		text: 	a Text for 'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: '[..]
+		category: 	#Running
+		requestor: 	a TextModelMorph(371107)
+		stamp: 	'MB 9/22/2024 02:44:50'
+	Receiver's instance variables: 
+		superclass: 	TestCase
+		methodDict: 	a MethodDictionary(#setUp->(CineWarTest>>#setUp "a CompiledMethod(2[..]
+		format: 	65595
+		instanceVariables: 	#('veintiCuatroHorasParaVivir' 'bestiaDeCarga' 'matrix2' 'ya[..]
+		organization: 	('Running' setUp)
+('Test' test000_CineWarNoPuedeInscribrirUnaPeli[..]
+		subclasses: 	nil
+		name: 	#CineWarTest
+		classPool: 	a Dictionary(#ElAngel->El angel )
+		sharedPools: 	nil
+
+Browser>>defineMessageFrom:notifying:
+	Receiver: a Browser
+	Arguments and temporary variables: 
+		aString: 	a Text for 'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre[..]
+		aRequestor: 	a TextModelMorph(371107)
+		selectedMessageName: 	#setUp
+		selector: 	#setUp
+		category: 	#Running
+		oldMessageList: 	#(#setUp)
+	Receiver's instance variables: 
+		actionMap: 	an IdentityDictionary(#annotationChanged->WeakMessageSend(#refetch -[..]
+		currentCompiledMethod: 	(CineWarTest>>#setUp "a CompiledMethod(2485889)")
+		contentsSymbol: 	#source
+		systemOrganizer: 	('Kernel-Objects' ActiveModel Boolean False MessageSend Object[..]
+		classOrganizer: 	('Running' setUp)
+('Test' test000_CineWarNoPuedeInscribrirUnaPe[..]
+		metaClassOrganizer: 	('as yet unclassified')
+
+		selectedSystemCategory: 	#CineWar
+		selectedClassName: 	#CineWarTest
+		selectedMessageCategory: 	#Running
+		selectedMessage: 	#setUp
+		editSelection: 	#editMessage
+		metaClassIndicated: 	false
+
+Browser>>compileMessage:notifying:
+	Receiver: a Browser
+	Arguments and temporary variables: 
+		aText: 	a Text for 'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: [..]
+		aRequestor: 	a TextModelMorph(371107)
+		fallBackCategory: 	nil
+		fallBackMessage: 	nil
+		originalSelectorName: 	nil
+		result: 	nil
+	Receiver's instance variables: 
+		actionMap: 	an IdentityDictionary(#annotationChanged->WeakMessageSend(#refetch -[..]
+		currentCompiledMethod: 	(CineWarTest>>#setUp "a CompiledMethod(2485889)")
+		contentsSymbol: 	#source
+		systemOrganizer: 	('Kernel-Objects' ActiveModel Boolean False MessageSend Object[..]
+		classOrganizer: 	('Running' setUp)
+('Test' test000_CineWarNoPuedeInscribrirUnaPe[..]
+		metaClassOrganizer: 	('as yet unclassified')
+
+		selectedSystemCategory: 	#CineWar
+		selectedClassName: 	#CineWarTest
+		selectedMessageCategory: 	#Running
+		selectedMessage: 	#setUp
+		editSelection: 	#editMessage
+		metaClassIndicated: 	false
+
+Browser>>contents:notifying:
+	Receiver: a Browser
+	Arguments and temporary variables: 
+		input: 	a Text for 'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: [..]
+		aRequestor: 	a TextModelMorph(371107)
+		aString: 	'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: ''Hackers[..]
+		aText: 	a Text for 'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+		nombre: [..]
+		theClass: 	nil
+	Receiver's instance variables: 
+		actionMap: 	an IdentityDictionary(#annotationChanged->WeakMessageSend(#refetch -[..]
+		currentCompiledMethod: 	(CineWarTest>>#setUp "a CompiledMethod(2485889)")
+		contentsSymbol: 	#source
+		systemOrganizer: 	('Kernel-Objects' ActiveModel Boolean False MessageSend Object[..]
+		classOrganizer: 	('Running' setUp)
+('Test' test000_CineWarNoPuedeInscribrirUnaPe[..]
+		metaClassOrganizer: 	('as yet unclassified')
+
+		selectedSystemCategory: 	#CineWar
+		selectedClassName: 	#CineWarTest
+		selectedMessageCategory: 	#Running
+		selectedMessage: 	#setUp
+		editSelection: 	#editMessage
+		metaClassIndicated: 	false
+
+PluggableTextModel>>acceptContentsFrom:
+	Receiver: a PluggableTextModel
+	Arguments and temporary variables: 
+		aTextModelMorph: 	a TextModelMorph(371107)
+	Receiver's instance variables: 
+		actionMap: 	an IdentityDictionary(#changed:->WeakMessageSend(#update: -> a TextM[..]
+		actualContents: 	a Text for 'setUp
+	cineWar _ CineWar new.
+	hackers _ Pelicula
+	[..]
+		undoRedoCommands: 	a ReadWriteStream #(deleted: '	escuadronT34 _ Pelicula[enter][..]
+		lastEditTimeStamp: 	1947332
+		textProvider: 	a Browser
+		textGetter: 	#acceptedContents
+		textSetter: 	#contents:notifying:
+		selectionGetter: 	#contentsSelection
+
+InnerTextMorph>>acceptContents
+	Receiver: an InnerTextMorph(267401)
+	Arguments and temporary variables: 
+		accepted: 	nil
+		prevSelection: 	(1019 to: 1018)
+		prevScrollValue: 	0.2211856270293988
+	Receiver's instance variables: 
+		owner: 	a TextModelMorph(371107)
+		submorphs: 	#()
+		location: 	MorphicTranslation(translation 3.0@-492.0) 
+		layoutNeeded: 	false
+		layoutSpec: 	nil
+		properties: 	nil
+		extent: 	1289@2590
+		color: 	Color black
+		model: 	a PluggableTextModel
+		wrapFlag: 	true
+		textComposition: 	a TextComposition
+		editor: 	a SmalltalkEditor
+		pauseBlinking: 	false
+		acceptOnCR: 	false
+		hasUnacceptedEdits: 	true
+		hasEditingConflicts: 	false
+		askBeforeDiscardingEdits: 	true
+		styler: 	a SHTextStylerST80
+		autoCompleter: 	a SmalltalkCompleter
+		mutex: 	a Mutex
+
+SmalltalkEditor(TextEditor)>>acceptContents
+	Receiver: a SmalltalkEditor
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		morph: 	an InnerTextMorph(267401)
+		model: 	a PluggableTextModel
+		textComposition: 	a TextComposition
+		markBlock: 	a CharacterBlock with index 1019 and character $
+ and rectangle 158@[..]
+		pointBlock: 	a CharacterBlock with index 1019 and character $
+ and rectangle 158[..]
+		emphasisHere: 	#(a TextFontFamilyAndSize)
+		lastParenLocation: 	nil
+		selectionStartBlocks: 	#()
+		selectionStopBlocks: 	#()
+		initialSelectionStart: 	nil
+		initialSelectionStop: 	nil
+		doWordSelection: 	false
+		doParagraphSelection: 	false
+		defaultFont: 	a StrikeFont(DejaVu 9 14)
+		lastIndex: 	nil
+
+MenuItemMorph>>invokeWithEvent:
+	Receiver: a MenuItemMorph(1222485)'Accept (s)'
+	Arguments and temporary variables: 
+		evt: 	a MouseButtonEvent
+		selArgCount: 	0
+		w: 	 [world]
+	Receiver's instance variables: 
+		owner: 	a MenuMorph(3196054)
+		submorphs: 	#()
+		location: 	MorphicTranslation(translation 5.0@345.0) 
+		layoutNeeded: 	false
+		layoutSpec: 	nil
+		properties: 	nil
+		extent: 	246@18
+		color: 	Color black
+		font: 	a StrikeFont(DejaVu 10 16)
+		emphasis: 	0
+		contents: 	'Accept (s)'
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	a SmalltalkEditor
+		selector: 	#acceptContents
+		arguments: 	#()
+		icon: 	Form(16x16x32)
+
+MenuItemMorph>>mouseButton1Up:localPosition:
+	Receiver: a MenuItemMorph(1222485)'Accept (s)'
+	Arguments and temporary variables: 
+		aMouseButtonEvent: 	a MouseButtonEvent
+		localEventPosition: 	48.0@7.0
+	Receiver's instance variables: 
+		owner: 	a MenuMorph(3196054)
+		submorphs: 	#()
+		location: 	MorphicTranslation(translation 5.0@345.0) 
+		layoutNeeded: 	false
+		layoutSpec: 	nil
+		properties: 	nil
+		extent: 	246@18
+		color: 	Color black
+		font: 	a StrikeFont(DejaVu 10 16)
+		emphasis: 	0
+		contents: 	'Accept (s)'
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	a SmalltalkEditor
+		selector: 	#acceptContents
+		arguments: 	#()
+		icon: 	Form(16x16x32)
+
+MenuItemMorph(Morph)>>processMouseUp:localPosition:
+	Receiver: a MenuItemMorph(1222485)'Accept (s)'
+	Arguments and temporary variables: 
+		aMouseButtonEvent: 	a MouseButtonEvent
+		localEventPosition: 	48.0@7.0
+	Receiver's instance variables: 
+		owner: 	a MenuMorph(3196054)
+		submorphs: 	#()
+		location: 	MorphicTranslation(translation 5.0@345.0) 
+		layoutNeeded: 	false
+		layoutSpec: 	nil
+		properties: 	nil
+		extent: 	246@18
+		color: 	Color black
+		font: 	a StrikeFont(DejaVu 10 16)
+		emphasis: 	0
+		contents: 	'Accept (s)'
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	a SmalltalkEditor
+		selector: 	#acceptContents
+		arguments: 	#()
+		icon: 	Form(16x16x32)
+
+
+--- The full stack ---
+StandardFileStream>>primWrite:from:startingAt:count:
+StandardFileStream>>nextPut:
+StandardFileStream(WriteStream)>>newLine
+SystemDictionary>>assureStartupStampLogged
+CompiledMethod>>putSource:fromParseNode:inFile:withPreamble:
+CompiledMethod>>putSource:fromParseNode:class:category:withStamp:inFile:priorMethod:
+CineWarTest class(ClassDescription)>>logMethodSource:forMethodWithNode:inCategory:withStamp:notifying:
+CineWarTest class(ClassDescription)>>compile:classified:withStamp:notifying:logSource:
+CineWarTest class(ClassDescription)>>compile:classified:withStamp:notifying:
+CineWarTest class(ClassDescription)>>compile:classified:notifying:
+Browser>>defineMessageFrom:notifying:
+Browser>>compileMessage:notifying:
+Browser>>contents:notifying:
+PluggableTextModel>>acceptContentsFrom:
+InnerTextMorph>>acceptContents
+SmalltalkEditor(TextEditor)>>acceptContents
+MenuItemMorph>>invokeWithEvent:
+MenuItemMorph>>mouseButton1Up:localPosition:
+MenuItemMorph(Morph)>>processMouseUp:localPosition:
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MouseButtonEvent>>sentTo:localPosition:
+MouseButtonEvent(MorphicEvent)>>dispatchWith:localPosition:
+MouseButtonEvent>>dispatchWith:localPosition:
+MenuItemMorph(Morph)>>dispatchEvent:localPosition:
+[] in MouseButtonEvent(MorphicEvent)>>dispatchWith:localPosition:
+Array(SequenceableCollection)>>do:
+MenuMorph(Morph)>>submorphsDo:
+MouseButtonEvent(MorphicEvent)>>dispatchWith:localPosition:
+MouseButtonEvent>>dispatchWith:localPosition:
+MenuMorph(Morph)>>dispatchEvent:localPosition:
+MenuMorph>>handleFocusEvent:
+HandMorph>>startMouseDispatch:
+MouseButtonEvent(MouseEvent)>>startDispatchFrom:
+HandMorph>>startEventDispatch:
+HandMorph>>processEventQueue
+[] in WorldState>>doOneCycleNow
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldState>>doOneCycleNow
+WorldState>>doOneCycle
+PasteUpMorph>>doOneCycle
+[] in ProjectX class>>spawnNewMorphicProcessFor:
+[] in BlockClosure>>newProcess

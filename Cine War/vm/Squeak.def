@@ -1,0 +1,139 @@
+; i686-w64-mingw32-dlltool --input-def Squeak.def.in --output-def build/vm/Squeak.def --output-exp build/vm/Squeak.exp --output-lib build/vm/Squeak.lib build/vm/gcc3x-cointerp.o build/vm/cogit.o build/vm/sqWin32DnsInfo.o build/vm/sqWin32SpurAlloc.o build/vm/sqWin32Directory.o build/vm/sqWin32DirectInput.o build/vm/sqWin32Backtrace.o build/vm/sqWin32Prefs.o build/vm/sqWin32Stubs.o build/vm/sqWin32Service.o build/vm/sqWin32Exports.o build/vm/sqWin32Time.o build/vm/version.o build/vm/sqWin32PluginSupport.o build/vm/sqWin32ExternalPrims.o build/vm/sqWin32VMProfile.o build/vm/sqWin32Main.o build/vm/sqWin32Heartbeat.o build/vm/sqWin32Alloc.o build/vm/sqWin32Window.o build/vm/sqWin32GUID.o build/vm/sqWin32Threads.o build/vm/sqWin32Utils.o build/vm/sqTicker.o build/vm/sqVirtualMachine.o build/vm/sqNamedPrims.o build/vm/sqHeapMap.o build/vm/sqExternalSemaphores.o
+EXPORTS
+	traceStores @ 1 DATA
+	CStackPointer @ 2 DATA
+	blockNoContextSwitchOffset @ 3 DATA
+	breakLookupClassTag @ 4 DATA
+	breakPC @ 5 DATA
+	breakSelector @ 6 DATA
+	breakSelectorLength @ 7 DATA
+	cFramePointerInUse @ 8 DATA
+	callbackEnter @ 9
+	callbackLeave @ 10
+	cbEntryOffset @ 11 DATA
+	cbNoSwitchEntryOffset @ 12 DATA
+	ceBaseFrameReturnTrampoline @ 13 DATA
+	ceCall0ArgsPIC @ 14 DATA
+	ceCall1ArgsPIC @ 15 DATA
+	ceCall2ArgsPIC @ 16 DATA
+	ceCallCogCodePopReceiverAndClassRegs @ 17 DATA
+	ceCallCogCodePopReceiverArg0Regs @ 18 DATA
+	ceCallCogCodePopReceiverArg1Arg0Regs @ 19 DATA
+	ceCallCogCodePopReceiverReg @ 20 DATA
+	ceCannotResumeTrampoline @ 21 DATA
+	ceCaptureCStackPointers @ 22 DATA
+	ceCheckForInterruptTrampoline @ 23 DATA
+	ceEnterCogCodePopReceiverReg @ 24 DATA
+	ceGetFP @ 25 DATA
+	ceGetSP @ 26 DATA
+	ceReturnToInterpreterTrampoline @ 27 DATA
+	ceTryLockVMOwner @ 28 DATA
+	ceUnlockVMOwner @ 29 DATA
+	checkAllocFiller @ 30 DATA
+	checkForLeaks @ 31 DATA
+	checkedPluginName @ 32 DATA
+	cmEntryOffset @ 33 DATA
+	cmNoCheckEntryOffset @ 34 DATA
+	debugCallbackInvokes @ 35 DATA
+	debugCallbackPath @ 36 DATA
+	debugCallbackReturns @ 37 DATA
+	debugPrimCallStackOffset @ 38 DATA
+	deferDisplayUpdates @ 39 DATA
+	desiredCogCodeSize @ 40 DATA
+	desiredEdenBytes @ 41 DATA
+	desiredNumStackPages @ 42 DATA
+	displayBits @ 43 DATA
+	displayDepth @ 44 DATA
+	displayHeight @ 45 DATA
+	displayWidth @ 46 DATA
+	extraVMMemory @ 47 DATA
+	heapBase @ 48 DATA
+	inIOProcessEvents @ 49 DATA
+	interpreterProxy @ 50 DATA
+	maxLiteralCountForCompile @ 51 DATA
+	maxOldSpaceSize @ 52 DATA
+	minBackwardJumpCountForCompile @ 53 DATA
+	missOffset @ 54 DATA
+	moduleUnloaded @ 55
+	primitiveAddLargeIntegers @ 56
+	primitiveAllInstances @ 57
+	primitiveAllObjects @ 58
+	primitiveBitAndLargeIntegers @ 59
+	primitiveBitOrLargeIntegers @ 60
+	primitiveBitShiftLargeIntegers @ 61
+	primitiveBitXorLargeIntegers @ 62
+	primitiveClockLogAddresses @ 63
+	primitiveCompareBytes @ 64
+	primitiveCrashVM @ 65
+	primitiveDisablePowerManager @ 66
+	primitiveDivLargeIntegers @ 67
+	primitiveDivideLargeIntegers @ 68
+	primitiveDnsInfo @ 69
+	primitiveEqualLargeIntegers @ 70
+	primitiveEventProcessingControl @ 71
+	primitiveGetLogDirectory @ 72
+	primitiveGetWindowLabel @ 73
+	primitiveGetWindowSize @ 74
+	primitiveGetenv @ 75
+	primitiveGreaterOrEqualLargeIntegers @ 76
+	primitiveGreaterThanLargeIntegers @ 77
+	primitiveHeartbeatFrequency @ 78
+	primitiveHighResClock @ 79
+	primitiveImageFormatVersion @ 80
+	primitiveInterruptChecksPerMSec @ 81
+	primitiveIsBigEnder @ 82
+	primitiveIsWindowObscured @ 83
+	primitiveLessOrEqualLargeIntegers @ 84
+	primitiveLessThanLargeIntegers @ 85
+	primitiveLongRunningPrimitive @ 86
+	primitiveLongRunningPrimitiveSemaphore @ 87
+	primitiveMethodPCData @ 88
+	primitiveMillisecondClockMask @ 89
+	primitiveMinimumUnusedHeadroom @ 90
+	primitiveModLargeIntegers @ 91
+	primitiveMultiplyLargeIntegers @ 92
+	primitiveNotEqualLargeIntegers @ 93
+	primitivePathToUsing @ 94
+	primitivePluginBrowserReady @ 95
+	primitivePluginDestroyRequest @ 96
+	primitivePluginPostURL @ 97
+	primitivePluginRequestFileHandle @ 98
+	primitivePluginRequestState @ 99
+	primitivePluginRequestURL @ 100
+	primitivePluginRequestURLStream @ 101
+	primitiveProfilePrimitive @ 102
+	primitiveProfileSample @ 103
+	primitiveProfileSemaphore @ 104
+	primitiveProfileStart @ 105
+	primitiveQuoLargeIntegers @ 106
+	primitiveRemLargeIntegers @ 107
+	primitiveScreenDepth @ 108
+	primitiveScreenScaleFactor @ 109
+	primitiveSetGCSemaphore @ 110
+	primitiveSetLogDirectory @ 111
+	primitiveSetWindowLabel @ 112
+	primitiveSetWindowSize @ 113
+	primitiveSubtractLargeIntegers @ 114
+	primitiveUtcWithOffset @ 115
+	primitiveVoidReceiver @ 116
+	printFramesInPage @ 117
+	printFramesOnStackPageListInUse @ 118
+	realCECallCogCodePopReceiverAndClassRegs @ 119 DATA
+	realCECallCogCodePopReceiverArg0Regs @ 120 DATA
+	realCECallCogCodePopReceiverArg1Arg0Regs @ 121 DATA
+	realCECallCogCodePopReceiverReg @ 122 DATA
+	realCEEnterCogCodePopReceiverReg @ 123 DATA
+	reestablishContextPriorToCallback @ 124
+	returnAsThroughCallbackContext @ 125
+	segmentContainingObj @ 126
+	sendInvokeCallbackContext @ 127
+	sendInvokeCallbackStackRegistersJmpbuf @ 128
+	sendTrace @ 129 DATA
+	setInterruptCheckChain @ 130
+	shortPrintFramesInPage @ 131
+	shortPrintFramesOnStackPageListInUse @ 132
+	showSurfaceFn @ 133 DATA
+	statNumGCs @ 134
+	suppressHeartbeatFlag @ 135 DATA
+	traceFlags @ 136 DATA
+	CFramePointer @ 137 DATA
