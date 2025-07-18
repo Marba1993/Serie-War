@@ -47,3 +47,4 @@ void receiveScore(int sc, Serie* s)
 {
     s->score = s->score + sc ;
 }
+
